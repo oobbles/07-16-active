@@ -3,6 +3,6 @@
 Hello and welcome to my app.
 <div>
   <% Album.all.each do |album| %>
-    <a href="album/<%= album.id %>"><%= album.title %></a><br>
+    <a href="album/<%= album.id %>"><%= album.album_title %></a><br>
   <% end %>
 </div>
