@@ -8,7 +8,7 @@ require "sinatra/reloader"
 
 configure :development do
   require "sqlite3"
- ActiveRecord::Base.establish_connection(adapter: 'sqlite3', database: 'photo_albums.db')
+ ActiveRecord::Base.establish_connection(adapter: 'sqlite3', database: 'photography.db')
  end
 
  configure :production do
