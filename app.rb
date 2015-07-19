@@ -26,7 +26,7 @@ configure :development do
 end
 
 # So that ActiveRecord explains the SQL it's running in the logs.
-ActiveRecord::Base.logger = ActiveSupport::Logger.new(STDOUT)
+#ActiveRecord::Base.logger = ActiveSupport::Logger.new(STDOUT)
 
 # Models
 require_relative "models/photographer.rb"
